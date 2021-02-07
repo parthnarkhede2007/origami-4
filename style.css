@@ -1,0 +1,52 @@
+.menu{
+    background-color:rgb(89, 255, 0);
+    display:flex;
+    justify-content:space-between;
+    font-size:20px;
+    font-family:sans-seriff;
+    font-weight:400;
+    color:black;
+}
+body{
+    
+    background-color:#3FCCFF;
+}
+.bodyimg{
+    position:relative;
+}
+.bodyimg p{
+    position:absolute;
+    color:"cyan";
+    font-size:50px;
+    Top:5%;
+    Left:50%;
+    transform:translate(-50%,-50%);
+}
+.bodyimg h3{
+    position:absolute;
+    color:"cyan";
+    font-size:30px;
+    Top:40%;
+    Left:45%;
+    transform:translate(-40%,-40%);
+    
+}
+.grid{
+    display:flex;
+    flex-wrap:wrap;
+    margin:20px;
+    justify-content: space-between;
+    padding:70px;
+}
+.camel:hover img{
+  transform: scale(1.2);
+}
+.cham:hover img{
+    transform: scale(1.2);
+  }
+ .panda:hover img{
+    transform: scale(1.2);
+  }
+.pidgeon:hover img{
+      transform: scale(1.2);
+    }
